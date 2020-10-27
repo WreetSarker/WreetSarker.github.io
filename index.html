@@ -12,8 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
     <style>
+         div.a {
+        text-align: center;
+      }
     body {
-        font-family: 'Annie Use Your Telescope';font-size: 22px;
+        font-family: 'Annie Use Your Telescope';font-size: 24px;
     }
     </style>
     <title>Home</title>
@@ -105,7 +108,24 @@
           </div>
 
     </div>
-
+    <div class="a">
+        <button onclick="myFunction()">Press Me!</button>
+   
+   <p id="demo"></p>
+   
+   <script>
+   function myFunction() {
+     var txt;
+     var person = prompt("Please enter your name:", "");
+     if (person == null || person == "") {
+       txt = "User cancelled the prompt.";
+     } else {
+       txt = "Hello " + person + "! Have a nice day!";
+     }
+     document.getElementById("demo").innerHTML = txt;
+   }
+   </script>
+       </div>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
