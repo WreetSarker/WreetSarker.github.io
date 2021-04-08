@@ -6,21 +6,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <style>
-         div.a {
-        text-align: center;
-      }
-    body {
-        font-family: 'Annie Use Your Telescope';font-size: 24px;
-        background-image: url('img/design2.jpg');
-    }
+        div.a {
+            text-align: center;
+        }
+
+        body {
+            font-family: 'New Tegomin', serif;
+            font-size: 19px;
+            background-color: #33393f;
+            /* background-image: url('img/design2.jpg'); */
+        }
     </style>
     <title>Home</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/fav.ico" />
@@ -44,7 +48,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/hobbies">Hobbies</a>
-                  </li>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/projects">Projects</a>
                 </li>
@@ -65,14 +69,15 @@
                         target="_blank"></a>
                     <a href="https://www.linkedin.com/in/wreet-sarker" class="fa fa-linkedin nav-item nav-link mx-1"
                         target="_blank"></a>
-                    <a href="https://stackoverflow.com/story/wreet" class="fa fa-stack-overflow nav-item nav-link mx-1" target="_blank"></a>
+                    <a href="https://stackoverflow.com/story/wreet" class="fa fa-stack-overflow nav-item nav-link mx-1"
+                        target="_blank"></a>
 
                 </h3>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid mt-0 px-0">
+    <!-- <div class="container-fluid mt-0 px-0">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -81,16 +86,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/img1.jpg"
-                        class="d-block w-100" alt="...">
+                    <img src="img/img1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/img2.jpg"
-                        class="d-block w-100" alt="...">
+                    <img src="img/img2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/img3.jpg"
-                        class="d-block w-100" alt="...">
+                    <img src="img/img3.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,84 +104,92 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
+    </div> -->
 
     <div class="container my-3">
-        <div class="jumbotron">
+        <div class="jumbotron"
+            style="color: white ;background-image: linear-gradient(45deg, rgb(18, 107, 107), rgb(7, 7, 56));">
             <h1 class="display-4">Hello, Everyone!</h1>
             <p class="lead">Welcome to my profile. You will find necessary information about me here. </p>
             <hr class="my-4">
-            <p> <var>I am a final year student at Department of Materials and Metallurgical Engineering, Bangladesh University of Engineering & Technology.
-                I love taking photos. It's my hobby. I also love travelling. Have almost travelled every corner of Bangladesh! </var></p>
+            <p> <var>I am a fresh graduate from Department of Materials and Metallurgical Engineering, Bangladesh
+                    University of Engineering & Technology. I am a programming
+                    enthusiast. Currently I am working as an Intern Software Engineer at Pioneer Alpha Ltd. <br>
+                    I also love taking photos. It's my hobby. Travelling is my another hobby. Have almost travelled
+                    every corner
+                    of Bangladesh! </var></p>
             <a class="btn btn-primary btn-lg" href="/about" role="button">Learn more about me</a>
-          </div>
+        </div>
 
     </div>
-    
-    <div class="container">
+
+    <div class="container" style="color: white;">
         <h2>Quick Facts</h2>
         <p> Tap to learn few quick facts about me!</p>
-      
+
         <!-- Button to Open the Modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-          Tap Me
+            Tap Me
         </button>
-      
+
         <!-- The Modal -->
         <div class="modal fade" id="myModal">
-          <div class="modal-dialog">
-            <div class="modal-content">
-            
-              <!-- Modal Header -->
-              <div class="modal-header">
-                <h4 class="modal-title">Facts</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-              </div>
-              
-              <!-- Modal body -->
-              <div class="modal-body">
-                 <br> Nick Name: Wreet! </br>
-                <br> Favourite Sports: Cricket <img src="img/rsz_cricket.png" class="align-self-center mr-3" alt="..."></br>
-              <br> Favourite Sports Person: Lionel Messi <img src="img/rsz_messi.jpg" class="align-self-center mr-3" alt="..."></br>
-            <br> Favourite Book: Purbo Poshchim </br>
-              <br> Favourite Author: Sunil Gangopadhyay </br>
-          <br> Favourite Singer: Arijit Singh </br>
-          <br> Favourite Programming Language: Java  <i class='fab fa-java' style='font-size:36px'></i> </br>
-              </div>
-              
-              <!-- Modal footer -->
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-              </div>
-              
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Facts</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <br> Nick Name: Wreet! </br>
+                        <br> Favourite Sports: Cricket <img src="img/rsz_cricket.png" class="align-self-center mr-3"
+                            alt="..."></br>
+                        <br> Favourite Sports Person: Lionel Messi <img src="img/rsz_messi.jpg"
+                            class="align-self-center mr-3" alt="..."></br>
+                        <br> Favourite Book: Purbo Poshchim </br>
+                        <br> Favourite Author: Sunil Gangopadhyay </br>
+                        <br> Favourite Singer: Arijit Singh </br>
+                        <br> Favourite Programming Language: Python <i class='fab fa-python' style='font-size:36px'></i>
+                        </br>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
             </div>
-          </div>
         </div>
-        
-      </div>
+
+    </div>
 
 
 
 
     <div class="a">
         <button onclick="myFunction()">Press Me!</button>
-   
-   <p id="demo"></p>
-   
-   <script>
-   function myFunction() {
-     var txt;
-     var person = prompt("Please enter your name:", "");
-     if (person == null || person == "") {
-       txt = "User cancelled the prompt.";
-     } else {
-       txt = "Hello " + person + "! Have a nice day!";
-     }
-     document.getElementById("demo").innerHTML = txt;
-   }
-   </script>
-       </div>
-    
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                var txt;
+                var person = prompt("Please enter your name:", "");
+                if (person == null || person == "") {
+                    txt = "User cancelled the prompt.";
+                } else {
+                    txt = "Hello " + person + "! Have a nice day!";
+                }
+                document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
